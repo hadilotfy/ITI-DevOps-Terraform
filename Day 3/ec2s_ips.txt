@@ -1,0 +1,6 @@
+ private machine private ip = 10.0.1.98  public ip = 
+ private machine private ip = 10.0.3.217  public ip = 
+ public  machine private ip = 10.0.2.206  public ip = 54.158.210.233
+ public  machine private ip = 10.0.0.48  public ip = 54.90.235.200
+ private machine private ip = 10.0.1.243  public ip = 
+ private machine private ip = 10.0.3.28  public ip = 

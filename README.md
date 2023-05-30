@@ -5,4 +5,4 @@
 
 ## Lab 2 (finished)
 
-## Lab 3 ...
+## Lab 3 (finished)

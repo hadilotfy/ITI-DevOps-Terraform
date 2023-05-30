@@ -1,6 +1,3 @@
-data "aws_availability_zones" "azones" {
-    state = "Available"
-}
 
 data "aws_ami" "rhel" {
     name_regex = "^RHEL-9.2.0_HVM-[0-9]*-x86_64"
