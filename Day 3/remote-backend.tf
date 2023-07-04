@@ -16,16 +16,16 @@
 #     }
 # }
 
-# #this block will not work untill you created the bucket, dynamdb .. before applying this.
-terraform{
-    backend "s3" {
-        profile = "terraform"
-        bucket = "the-nice-terra-backend-state-bucket"
-        key = "Dev/terraform.tfstate"   # just a path inside the bucket and file name
-        region = "us-east-1"
-        dynamodb_table = "terra-backend-state-lock"
-        encrypt =  true
-    }
-}
+# # # #this block will not work untill you created the bucket, dynamdb .. before applying this.
+# terraform{
+#     backend "s3" {
+#         profile = "terraform"
+#         bucket = "the-nice-terra-backend-state-bucket"
+#         key = "Dev/terraform.tfstate"   # just a path inside the bucket and file name
+#         region = "us-east-1"
+#         dynamodb_table = "terra-backend-state-lock"
+#         encrypt =  true
+#     }
+# }
 
-#terraform force-unlock --force <....lock..id....>
+# #terraform force-unlock --force <....lock..id....>
